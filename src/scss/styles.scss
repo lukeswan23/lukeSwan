@@ -1,0 +1,73 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+#header {
+  background: black;
+  h1 {
+    font-family: "Arimo", sans-serif;
+    color: lime;
+  }
+}
+
+#showcase {
+  position: relative;
+  background: url(/src/img/world.jpg);
+  min-height: 900px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+
+  h1 {
+    font-family: "Changa", sans-serif;
+    padding-top: 300px;
+    color: lime;
+  }
+
+  span {
+    font-family: "Changa", sans-serif;
+    color: orangered;
+  }
+}
+
+#intro {
+}
+
+.fab {
+  font-size: 5em;
+  padding: 5px;
+  color: black;
+}
+
+.far {
+  font-size: 5em;
+  padding-left: 5px;
+  color: black;
+}
+.design {
+  font-family: "Playball", sans-serif;
+  font-size: 1.4em;
+}
+
+p {
+  font-family: "Arimo", sans-serif;
+}
+
+// #portolio img {
+//   height: 300px;
+//   width: 600px;
+// }
+
+@media (max-width: 720px) {
+  #portfolio img {
+    padding-bottom: 10px;
+  }
+}
